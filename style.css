@@ -1,73 +1,78 @@
+/*
+Custom styles for the Accessible Audio Reader.
+*/
+
 body {
-    background-image: url('img/thai.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #E0E0E0;
-    overflow-x: hidden;
+background-image: url('img/thai.jpg');
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+margin: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #E0E0E0;
+overflow-x: hidden;
 }
 
 .nebula-container {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+position: relative;
+width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+overflow: hidden;
 }
 
 .content-card {
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(50px);
-  text-align: center;
-  border-radius: 15px;
-  padding: 40px;
-  width: 80vw; /* Updated to 80% of the viewport width */
-  height: 80vh; /* Updated to 80% of the viewport height */
-  overflow-y: auto;
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  z-index: 1;
+background: rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(50px);
+text-align: center;
+border-radius: 15px;
+padding: 40px;
+width: 80vw; /* Updated to 80% of the viewport width /
+height: 80vh; / Updated to 80% of the viewport height */
+overflow-y: auto;
+box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+border: 1px solid rgba(255, 255, 255, 0.18);
+z-index: 1;
 }
 
 .content-card h1 {
-    font-size: 3em;
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-    color: #B2D7EF;
+font-size: 3em;
+margin-bottom: 20px;
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+color: #B2D7EF;
 }
+
 .content-card h2 {
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-    color: #000000;
+margin-bottom: 20px;
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+color: #000000;
 }
 
 .content-card p {
-    font-size: 1.2em;
-    line-height: 1.6;
-    margin-bottom: 30px;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-    color: #000000;
+font-size: 1.2em;
+line-height: 1.6;
+margin-bottom: 30px;
+text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+color: #000000;
 }
 
 .content-card button {
-    background: linear-gradient(to right, #6A0572, #AB3E5B);
-    color: white;
-    border: none;
-    padding: 15px 30px;
-    border-radius: 30px;
-    font-size: 1.1em;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+background: linear-gradient(to right, #6A0572, #AB3E5B);
+color: white;
+border: none;
+padding: 15px 30px;
+border-radius: 30px;
+font-size: 1.1em;
+cursor: pointer;
+transition: all 0.3s ease;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .content-card button:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
-    background: linear-gradient(to right, #AB3E5B, #6A0572);
+transform: translateY(-3px);
+box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+background: linear-gradient(to right, #AB3E5B, #6A0572);
 }

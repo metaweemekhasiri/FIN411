@@ -66,6 +66,14 @@ text-align: left;
   border-radius: 5px;
 }
 
+.home-link {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
 /*
 RETIRED CODE
 

@@ -11,7 +11,7 @@ color: #E0E0E0;
 overflow-x: hidden;
 }
 
-.nebula-container {
+.fin-container {
 position: relative;
 width: 100vw;
 height: 100vh;
@@ -58,7 +58,17 @@ color: #000000;
 text-align: left;
 }
 
+.chapter-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
 /*
+RETIRED CODE
+
 .content-card button {
 background: linear-gradient(to right, #6A0572, #AB3E5B);
 color: white;
@@ -77,10 +87,3 @@ box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
 background: linear-gradient(to right, #AB3E5B, #6A0572);
 }
 */
-.chapter-link {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #007bff;
-  text-decoration: none;
-  border-radius: 5px;
-}
